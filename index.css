@@ -1,0 +1,412 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        * {
+            font-family: 'Roboto', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            color: black;
+        }
+        
+        .logo-instagram {
+            padding-bottom: 0px;
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        
+        .search {
+            position: relative;
+            padding-top: 8px;
+            padding-left: 170px;
+        }
+        
+        .search-1 {
+            padding-left: 30px;
+            height: 36px;
+            width: 268px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            border: none;
+            background-color: rgba(186, 183, 183, 0.221);
+        }
+        
+        .search-image {
+            position: absolute;
+            top: 17px;
+            left: 177px;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .nav-icons ul {
+            list-style: none;
+            display: flex;
+            padding-bottom: 0px;
+        }
+        
+        .nav-icons ul li {
+            padding: 10px;
+        }
+        
+        .nav-icon {
+            width: 25px;
+            height: 25px;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 0.2px solid rgba(0, 0, 0, 0.107);
+            box-shadow: inset;
+            margin: 0px;
+            padding-top: 4px;
+            padding-bottom: 3px;
+            padding-left: 160px;
+            padding-right: 167px;
+        }
+        
+        .profile {
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        /* the main three div to align the item together in the clone  */
+        
+        .main-instagram {
+            width: 100vw;
+        }
+        
+        .main-instagram-one {
+            width: 46%;
+            margin-left: 195px;
+            margin-top: 30px;
+            padding: 7px;
+        }
+        
+        .main-instagram-two {
+            width: 22%;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        /* for the stories section  */
+        
+        .stories {
+            width: 100%;
+            border: 0.2px solid rgba(0, 0, 0, 0.107);
+            border-radius: 3px;
+            /* margin-left: 195px;
+            margin-top: 30px;
+            padding: 7px; */
+        }
+        
+        .stories ul {
+            display: flex;
+            justify-content: center;
+            overflow: scroll;
+            overflow-y: hidden;
+        }
+        
+        .stories ul li {
+            list-style: none;
+            padding: 8px;
+            font-size: 12px;
+            color: #262626;
+            letter-spacing: 0.12px;
+            font-weight: 400;
+        }
+        
+        .story {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 3px solid rgba(252, 70, 107, 1);
+            object-fit: cover;
+        }
+        /* the content section of the instagram clone  */
+        
+        .content {
+            width: 100%;
+            height: 185vh;
+            border: 0.2px solid rgba(0, 0, 0, 0.107);
+            border-radius: 3px;
+            /* margin-left: 195px; */
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .uploaded-image {
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .account-name {
+            display: flex;
+            align-items: center;
+            border-bottom: 0.2px solid rgba(0, 0, 0, 0.107);
+            border-radius: 3px;
+            padding: 15px;
+        }
+        
+        .content-profile {
+            width: 35px;
+            height: 35px;
+            object-fit: cover;
+            border-radius: 50%;
+            /* border: 3px solid rgba(252, 70, 107, 1); */
+        }
+        
+        .content-name {
+            font-size: 14px;
+            color: #262626;
+            padding-left: 15px;
+        }
+        
+        .content-name-sub {
+            font-size: 12px;
+            font-weight: 400;
+            padding-left: 15px;
+            padding-top: 3px;
+        }
+        
+        .dots {
+            display: flex;
+            margin-right: 10px;
+            margin-left: auto;
+        }
+        
+        .content-dot {
+            width: 3px;
+            height: 3px;
+            background-color: #262626;
+            border-radius: 50%;
+            margin: 2px;
+        }
+        /* for the like and save section  */
+        
+        .like-icons {
+            display: flex;
+            align-items: center;
+        }
+        
+        .icon {
+            height: 32px;
+            width: 30px;
+            padding-top: 10px;
+            padding-left: 15px;
+            object-fit: cover;
+        }
+        
+        .save-icon {
+            margin-right: 10px;
+            margin-left: auto;
+        }
+        
+        .like-profile {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .who-liked {
+            font-size: 14px;
+            padding-left: 10px;
+        }
+        
+        .writing-content {
+            display: flex;
+            padding: 15px;
+            align-items: center;
+            padding-top: 10px;
+        }
+        
+        .posts-writing {
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+        
+        .posts-account-links {
+            color: #00376b;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        .post {
+            padding-left: 62px;
+        }
+        
+        .view-comments {
+            font-size: 14px;
+            font-weight: 400;
+            color: #8e8e8e;
+            padding-top: 10px;
+        }
+        
+        .days {
+            font-size: 10px;
+            letter-spacing: 0.2px;
+            color: #8e8e8e;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        
+        .content-posts {
+            padding-left: 15px;
+        }
+        
+        .comments {
+            width: 80%;
+            position: absolute;
+            top: 2px;
+            height: 50px;
+            border: none;
+            border-top: 0.2px solid rgba(0, 0, 0, 0.107);
+            font-size: 14px;
+            color: #8e8e8e;
+        }
+        
+        .comment-section {
+            position: relative;
+        }
+        
+        .smilie {
+            position: absolute;
+            top: 16px;
+            left: 23px;
+            width: 25px;
+            height: 25px;
+        }
+        
+         ::placeholder {
+            padding-left: 70px;
+            padding-top: 25px;
+        }
+        
+        .post {
+            color: #0095f6;
+            font-size: 14px;
+            font-weight: 600;
+            height: 54px;
+            width: 20%;
+            right: 0px;
+            top: 2px;
+            left: auto;
+            position: absolute;
+            border: none;
+            background-color: white;
+            border-top: 0.2px solid rgba(0, 0, 0, 0.107);
+        }
+        /* side part of the instagram clone  */
+        
+        .main-instagram {
+            display: flex;
+        }
+        
+        .my-account-image {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        
+        .side-account {
+            display: flex;
+            padding: 13px;
+            margin-top: 15px;
+            align-items: center;
+        }
+        
+        .my-account-name {
+            font-size: 14px;
+            margin-right: 15px;
+        }
+        
+        .my-account-name-sub {
+            font-size: 14px;
+            font-weight: 400;
+            color: #8e8e8e;
+        }
+        
+        .switch-link {
+            font-size: 12px;
+            color: #0095f6;
+        }
+        /* the suggestion part of the instagram  */
+        
+        .suggestions {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .suggestion {
+            font-size: 14px;
+            font-weight: 600;
+            color: #8e8e8e;
+            padding-left: 15px;
+        }
+        
+        .see-all {
+            font-size: 12px;
+            color: #262626;
+            font-weight: 400;
+            padding-right: 30px;
+            padding-right: 24px;
+        }
+        /* the follow other instagram account part  */
+        
+        .my-account-image-1 {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .side-account-1 {
+            display: flex;
+            margin-top: 10px;
+            align-items: center;
+            margin-left: 15px;
+        }
+        
+        .my-account-name-1 {
+            font-size: 14px;
+        }
+        
+        .others-account-name-1 {
+            padding-left: 16px;
+            padding-right: 55px;
+        }
+        
+        .my-account-name-sub-1 {
+            font-size: 14px;
+            font-weight: 400;
+            color: #8e8e8e;
+        }
+        
+        .switch-link-1 {
+            font-size: 12px;
+            color: #0095f6;
+        }
+        /* the about section of the webpage  */
+        
+        .about {
+            font-size: 12px;
+            color: #c7c7c7;
+            font-weight: 400;
+            padding-left: 15px;
+            padding-top: 30px;
+            word-spacing: 3px;
+        }
+        
+        .copyright {
+            font-size: 12px;
+            color: #c7c7c7;
+            font-weight: 400;
+            padding-left: 15px;
+            padding-top: 30px;
+            word-spacing: 3px;
+        }
+        
+        .new-to {
+            padding-right: 56px;
+        }
